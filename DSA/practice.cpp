@@ -1,21 +1,12 @@
-#include<stack>
 #include<iostream>
+#include<stack>
 int main()
 {
-std::stack<char>p;
+int k;
+char arr[k];
+for(int i=0 ;i<k;i++)
+cin>>arr[i];
 
-char ii[] {'a','e','i','o','u'};
 
-for(int i=0;i<std::size(ii);i++)
-{
-p.push(ii[i]);
-}
-while(!p.empty())
-{
-char k;
-k=p.top();
-p.pop();
-std::cout<<k<<"  ";
-}
-std::cout<<std::endl;
+return 0;
 }
