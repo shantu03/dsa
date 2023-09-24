@@ -4,3 +4,5 @@ git/
 Microsoft VS/
 *.exe/
 Setup/
+java/
+*.class/
