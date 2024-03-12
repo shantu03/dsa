@@ -48,10 +48,13 @@ class allpossibledivisor{
         System.out.println("ENter number to see all possible divisor : ");
         int num=new Scanner(System.in).nextInt();
 
-        for(int i=1;i<=num/2;i++)
+        for(int i=1;i<=Math.sqrt(num);i++)
         {
             if(num%i==0)
                 System.out.printf("%d \t",i);
+                    if(num/(int)i!=i)
+                        System.out.printf("%d \t",num/i);
+            
         }
     }
 }
