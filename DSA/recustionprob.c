@@ -43,7 +43,6 @@ void sum2(int sum,int num)
 }
 
 
-
 int sum(int num){
     if(num<=1)
     {
