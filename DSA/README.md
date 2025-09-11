@@ -1,0 +1,3 @@
+start of DSA IN MTECH
+
+SETTING THE PATH 
