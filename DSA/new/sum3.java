@@ -19,7 +19,7 @@ public class sum3 {
         }
         for(int i=0;i<nums.length-2;i++)
         {
-            if
+            
             for(int j=i+1;j<nums.length-1;j++)
             {
                 int tag=-nums[i]-nums[j];
